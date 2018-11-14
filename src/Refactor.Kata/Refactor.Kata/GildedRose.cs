@@ -5,7 +5,6 @@
         private readonly string _name;
 
         public int SellIn { get; private set; }
-
         public int Quality { get; private set; }
 
         public GildedRose(string name, int sellIn, int quality)
@@ -21,7 +20,7 @@
             {
                 if (Quality > 0)
                 {
-                    if (_name != "Sulfuras, Hand of Ragnaros")
+                    if (_name != "Sulfuras, Hand of Ragnaros" && _name != "Infinity Gauntlet")
                     {
                         Quality = Quality - 1;
                     }
@@ -50,11 +49,19 @@
                                 Quality = Quality + 1;
                             }
                         }
+
+                        if (SellIn < 2)
+                        {
+                            if (Quality < 50)
+                            {
+                                Quality = Quality + 1;
+                            }
+                        }
                     }
                 }
             }
 
-            if (_name != "Sulfuras, Hand of Ragnaros")
+            if (_name != "Sulfuras, Hand of Ragnaros" && _name != "Infinity Gauntlet")
             {
                 SellIn = SellIn - 1;
             }
@@ -67,7 +74,7 @@
                     {
                         if (Quality > 0)
                         {
-                            if (_name != "Sulfuras, Hand of Ragnaros")
+                            if (_name != "Sulfuras, Hand of Ragnaros" && _name != "Infinity Gauntlet")
                             {
                                 Quality = Quality - 1;
                             }
