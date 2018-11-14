@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactor.Kata", "Refactor.Kata\Refactor.Kata.csproj", "{ABDAED43-1A0E-4E72-9FD1-1FCC073ED295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactor.Kata.Tests", "Refactor.Kata.Tests\Refactor.Kata.Tests.csproj", "{0F5FD5BD-B76F-4D8A-AEBF-CDCE33837EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDAED43-1A0E-4E72-9FD1-1FCC073ED295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDAED43-1A0E-4E72-9FD1-1FCC073ED295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDAED43-1A0E-4E72-9FD1-1FCC073ED295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDAED43-1A0E-4E72-9FD1-1FCC073ED295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5FD5BD-B76F-4D8A-AEBF-CDCE33837EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5FD5BD-B76F-4D8A-AEBF-CDCE33837EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5FD5BD-B76F-4D8A-AEBF-CDCE33837EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5FD5BD-B76F-4D8A-AEBF-CDCE33837EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF5585D0-FBD9-487A-9DBE-693434A4F61A}
+	EndGlobalSection
+EndGlobal
